@@ -7,13 +7,15 @@
     <script src="https://kit.fontawesome.com/6e478a30e4.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="siang">
+    <div class="home" id="home">
+
         <!-- Navbar -->
         <nav>
             <h2 class="logo"> Porto<span>folio</span></h2>
             <ul>
                 <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
+                <li><a href="#about">Tentang Saya</a></li>
                 <li><a href="#services">Keahlian</a></li>
                 <li><a href="#skill">Skill</a></li>
                 <li><a href="#contact">Contact</a></li>
@@ -23,39 +25,57 @@
         <!-- Akhir Navbar -->
 
         <!-- Home -->
+
+        <!-- Untuk memasukkan gambar no background -->
         <div class="image">
             <img src="No Background.png" alt="">
         </div>
+        <!-- akhir gambar -->
+
+        <!-- bagian teks dari hallo sampai tombol about me -->
         <div class="content">
-            <h4>Hello, My Name Is</h4>
+            <h4>Hallo, Nama Saya Adalah</h4>
             <h1>Dimas Fakhru <span>Alfarabi</span></h1>
             <h3>Saya seorang Gamers dan sedang belajar di SMK Telkom Purwokerto</h3>
-            <a href="#about"><i class="far fa-user"> More About Me</i></a>
+            <a href="#about"><i class="far fa-user"> Lebih banyak tentang saya</i></a>
         </div>
+        <!-- akhir teks dan tombol -->
+
         <!-- Akhir Home -->
     </div>
 
-    <!-- Bagian About-Me -->
-    <section class="about" id="about">    
+    <!-- Bagian Tentang Saya -->
+    <section class="about" id="about">
+
+        <!-- untuk memasukkan gambar -->
         <div class="about-me">
             <img src="Background.jpg" alt="">
+
+            <!-- untuk memasukkan text dari judul sampe deskripsi -->
             <div class="about-text">
-                <h2>About <span>Me</span></h2>
+                <h2>Tentang <span>Saya</span></h2>
                 <h5>Web Programmer <span>& Gamers</span></h5>
-                <p>Saya Dimas Fakhru Alfarabi, sedang bersekolah di SMK Telkom Purwokerto dengan jurusan Rekayasa Perangkat Lunak(RPL), Selain belajar membuat WEB saya juga memiliki hobi bermain game dan bermain futsal.</p>
+                <p>Saya Dimas Fakhru Alfarabi, sedang bersekolah di SMK Telkom Purwokerto dengan jurusan Rekayasa Perangkat Lunak(RPL), Selain belajar membuat Aplikasi saya juga memiliki hobi bermain game dan bermain futsal.</p>
+
+                <!-- untuk menaruh tombol contact -->
                 <a href="#contact" class="button">Contact</a>
             </div>
+            <!-- akhir bagian judul sampe tombol -->
         </div>
-        
+        <!-- akhir bagian menambahkan gambar -->
     </section>
-    <!-- Akhir About-Me -->
+    <!-- Akhir Tentang Saya -->
 
     <!-- Keahlian -->
     <section class="services" id="services">
+        <!-- bagian Judul -->
         <div class="title">
             <h2>Keah<span>lian</span></h2>
         </div>
+        <!-- akhir judul -->
+        <!-- untuk mengelompokkan 2 tabel diatur di css -->
         <div class="box">
+            <!-- bagian tabel keahlian pertama -->
             <div class="card">
                 <i class="far fa-user"></i> 
                 <h5>Web Development</h5>
@@ -66,6 +86,8 @@
                     </p>
                 </div>
             </div>
+            <!-- akhir tabel 1 -->
+            <!-- bagian tabel keahlian kedua -->
             <div class="card"> 
                 <i class="fas fa-gamepad"></i>
                 <h5>Gamers</h5>
@@ -76,19 +98,28 @@
                     </p>
                 </div>
             </div>
+            <!-- akhir tabel 2 -->
         </div>
+        <!-- akhir pengelompokkan seluruh tabel -->
     </section>
     <!-- Akhir Keahlian -->
 
     <!-- Skill -->
     <section class="skill" id="skill">
+        <!-- Judul untuk bagian Skill -->
         <div class="title">
             <h2>Ski<span>lls</span></h2>
         </div>
+        <!-- Mengelompokkan semua tabel -->
         <div class="box">
+            <!-- bagian tabel 1 -->
             <div class="card"> 
                 <i class="far fa-user"></i>
+                <!-- Judul tabel 1 -->
                 <h5>Front-End Developer</h5>
+                <!-- Akhir judul tabel 1 -->
+
+                <!-- isi dalam tabel 1 -->
                 <div class="skill-bar">
                     <p>HTML</p>
                     <div class="skill-box">
@@ -107,10 +138,18 @@
                         <div class="react">0%</div>
                     </div>
                 </div>
+                <!-- akhir isi tabel 1 -->
             </div>
+            <!-- akhir tabel 1 -->
+
+            <!-- Bagian Tabel 2 -->
             <div class="card"> 
                 <i class="fas fa-gamepad"></i>
+                <!-- Judul tabel 2 -->
                 <h5>Games</h5>
+                <!-- Akhir judul 2 -->
+
+                <!-- Isi tabel 2 -->
                 <div class="skill-bar">
                     <p>ML</p>
                     <div class="skill-box">
@@ -129,15 +168,24 @@
                         <div class="pubg">40%</div>
                     </div>
                 </div>
+                <!-- Akhir isi tabel 2 -->
+            </div>
+            <!-- Akhir Tabel 2 -->
         </div>
+        <!-- Akhir semua tabel -->
     </section>
     <!-- Akhir Skill -->
 
     <!-- Contact -->
     <section class="contact-me" id="contact">
+        <!-- mengelompokkan judul, alamat, email, dan hp -->
         <div class="contact-text">
+            <!-- Judul Contact -->
             <h2>Contact <span>Me</span></h2>
+
+            <!-- Untuk mengelompokkan subjudul dan iframe google maps -->
             <div class="contact-info">
+                <!-- bagian subjudul dari contact -->
                 <div class="contact-box">
                     <div class="contact">
                         <h4>Address</h4>
@@ -152,23 +200,35 @@
                         <p>+62859-xxxx-xx95</p>
                     </div>
                 </div>
+                <!-- Akhir subjudul -->
+
+                <!-- Menambahkan iframe google maps -->
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.2194758724977!2d109.24587047490363!3d-7.440951673317328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e655d6634a1c011%3A0xb0711695f922706!2sKos%20UNA!5e0!3m2!1sen!2sid!4v1693288877832!5m2!1sen!2sid" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
+            <!-- akhir pengelompokkan subjudul dan iframe -->
         </div>
+        <!-- akhir pengelompokkan judul, subjudul dan iframe-->
     </section>
     <!-- Akhir Contact -->
 
     <!-- Bagian Footer -->
     <footer>
-        <p>Dimas Fakhru Alfarabi @Siswa Telkom</p>
+        <!-- bagian nama penulis -->
+        <p>Dimas Fakhru Alfarabi</p>
+
+        <!-- pengelompokkan link sosial media -->
         <div class="sosmed">
             <a href="https://youtube.com/@dimasalfarabi8628?feature=shared"><i class="fab fa-youtube"></i></a>
             <a href="https://www.facebook.com/najib.fikri.108"><i class="fab fa-facebook"></i></a>
             <a href="https://www.instagram.com/racilty/"><i class="fab fa-instagram"></i></a>
             <a href="https://www.tiktok.com/@dimasfakhru?is_from_webapp=1&sender_device=pc"><i class="fab fa-tiktok"></i></a>
         </div>
+        <!-- akhir pengelompokkan link -->
+
+        <!-- bagian tanda copyright -->
         <p class="end">&copy; CopyRight By Dimas Fakhru</p>
     </footer>
     <!-- Akhir Footer -->
+
 </body>
 </html>
